@@ -15,11 +15,20 @@ class Photo {
     var url : String!
     /* The username of the photographer. */
     var username : String!
+    var Liked: Bool
+    var postDate: NSDate!
 
     /* Parses a NSDictionary and creates a photo object. */
     init (data: NSDictionary) {
         // FILL ME IN
         // HINT: use nested .valueForKey() calls, and then cast using 'as! TYPE'
+        let image = (data.valueForKey("images") as! NSDictionary!).valueForKey("standard_resolution") as! NSDictionary
+        url = image.valueForKey("url") as! String!
+        let timestamp = (data.valueForKey("created_time")) as! String
+        
+        username = (data.valueForKey("user") as! NSDictionary).valueForKey("username") as! String!
+        postDate = NSDate(timeIntervalSince1970: Double(timestamp)!)
+        Liked = false
     }
 
 }

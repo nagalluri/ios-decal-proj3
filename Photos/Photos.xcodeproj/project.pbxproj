@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		158640601C004986006931CC /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1586405F1C004986006931CC /* ImageCell.swift */; };
+		158640661C00650B006931CC /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158640651C00650B006931CC /* PhotoView.swift */; };
 		3A1683901BE9B642009F39C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A16838F1BE9B642009F39C5 /* AppDelegate.swift */; };
 		3A1683921BE9B642009F39C5 /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1683911BE9B642009F39C5 /* PhotosCollectionViewController.swift */; };
 		3A1683951BE9B642009F39C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A1683931BE9B642009F39C5 /* Main.storyboard */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1586405F1C004986006931CC /* ImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		158640651C00650B006931CC /* PhotoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoView.swift; sourceTree = "<group>"; };
 		3A16838C1BE9B641009F39C5 /* Photos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Photos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A16838F1BE9B642009F39C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A1683911BE9B642009F39C5 /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				3A1683911BE9B642009F39C5 /* PhotosCollectionViewController.swift */,
+				1586405F1C004986006931CC /* ImageCell.swift */,
+				158640651C00650B006931CC /* PhotoView.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -173,6 +179,8 @@
 				3A1683A31BE9B717009F39C5 /* Utils.swift in Sources */,
 				3A1683A71BE9C593009F39C5 /* InstagramAPI.swift in Sources */,
 				3A1683A91BE9C5A7009F39C5 /* Photo.swift in Sources */,
+				158640601C004986006931CC /* ImageCell.swift in Sources */,
+				158640661C00650B006931CC /* PhotoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
